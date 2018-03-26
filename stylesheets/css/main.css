@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 10px solid #cccccc
+}
+
+.left-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-image {
+
+}
+
+.double-box {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.single-box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.green {
+
+}
