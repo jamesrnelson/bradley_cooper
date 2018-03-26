@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, Helvetica;
+  color: white;
+  font-size: 20px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -10,26 +16,48 @@
 }
 
 .right-image {
-
+  width: 400px;
+  height: 600px;
+  background-image: url("/Users/jamesnelson/turing/2module/static_challenges/bradley_cooper/images/bradley.png")
 }
 
 .double-box {
   width: 400px;
   height: 200px;
-  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .single-box {
   width: 200px;
   height: 200px;
-  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
 }
 
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .green {
+  background-color: rgb(3, 189, 134)
+}
 
+.red {
+  background-color: rgb(245, 67, 39)
+}
+
+.yellow {
+  background-color: rgb(254, 156, 0)
+}
+
+.orange {
+  background-color: rgb(255, 125, 2)
+}
+
+.blue {
+  background-color: rgb(0, 148, 221)
 }
